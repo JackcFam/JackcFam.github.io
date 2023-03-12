@@ -1,0 +1,89 @@
+
+<header>
+  <div class="container header">
+    <div class="header-left">
+      <div class="logo"><a class="logo__link" href="./index.html"><img src="./image/logo/logo.png" alt="Hoa Qua Sach"/></a></div>
+      <nav class="header-right__main-menu desktop">
+        <ul class="header-right__list">
+          <li class="header-right__item"><a class="header-right__link home--active" href="./index.html">Trang chủ</a></li>
+          <li class="header-right__item"><a class="header-right__link product--active" href="./product.html">Sản Phẩm</a></li>
+          <li class="header-right__item"><a class="header-right__link blog--active" href="./blog.html">Tin Tức</a></li>
+          <li class="header-right__item"><a class="header-right__link contact--active" href="./contact.html">Liên Hệ</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header-right">
+      <div class="header-left__search desktop">
+        <div class="header-left__search-box">
+          <form class="header-left__form" action="#">
+            <input class="header-left__input" type="text" placeholder="Tìm kiếm..."/><a class="header-left__link"><i class="fas fa-search header-left__icon"></i></a>
+          </form>
+        </div>
+      </div>
+      <div class="header-right__search"><i class="fas fa-search header-right__icon mobile"></i></div>
+      <div class="header-right__avatar"><i class="fas fa-user header-right__icon"></i></div>
+      <div class="header-right__cart"><a class="header-right__link cart--active" href="./cart.html"><i class="fas fa-shopping-cart header-right__icon"></i></a></div>
+      <div class="header-right__open-draw"><i class="fas fa-ellipsis-h mobile"></i></div>
+    </div>
+    <div class="mobile" id="clone-menu">
+      <nav class="header-right__main-menu">
+        <div class="logo_nav-bar"><a class="avatar-login" href="#"><img src="image/logo/logoav.png" alt=""/></a>
+          <p class="user">Phạm Ngọc Nhật</p>
+        </div>
+        <hr/>
+        <ul class="header-right__list">
+          <li class="header-right__item"><a class="header-right__link home--active" href="./index.html"><i class="fas fa-home">&nbsp; Trang chủ</i></a></li>
+          <li class="header-right__item"><a class="header-right__link product--active" href="./product.html"><i class="fas fa-seedling">&nbsp; Sản Phẩm</i></a></li>
+          <li class="header-right__item"><a class="header-right__link blog--active" href="./blog.html"><i class="fas fa-newspaper">&nbsp; Tin Tức</i></a></li>
+          <li class="header-right__item"><a class="header-right__link contact--active" href="./contact.html" style="font-weight: bold;"><i class="fas fa-id-card">&nbsp; Liên Hệ</i></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="clone-menu__box"></div>
+    <div class="scroll"><i class="fas fa-angle-double-up"></i></div>
+    <div id="header__user">
+      <div class="user__box">
+        <p class="user--active user__action">Đăng nhập</p>
+        <p class="user__action">Đăng kí</p>
+      </div>
+      <form class="user__form" action="./index.html" data-number="0" id="user__signin">
+        <div class="logo-login"><img src="./image/logo/logo.png" alt=""/></div>
+        <div class="group-input">
+          <input type="text" placeholder="Email đăng nhập" id="form__email"/>
+          <p class="error">Vui lòng nhập email hợp lệ</p>
+        </div>
+        <div class="group-input group-last">
+          <input type="password" placeholder="Mật khẩu" id="form__password"/>
+          <p class="error">Vui lòng nhập Password hợp lệ</p>
+        </div><a class="user__form__box" href="#">
+          <p>Quên mật khẩu?</p></a>
+        <button class="user__btn">Đăng Nhập</button>
+      </form>
+      <form class="user__form" action="./index.html" data-number="1" id="user__signup">
+        <div class="logo-login-sigup"><img src="./image/logo/logo.png" alt=""/></div>
+        <div class="group-input">
+          <input type="text" placeholder="Email đăng ký" id="signup__email"/>
+          <p class="error">Vui lòng nhập Email hợp lệ</p>
+        </div>
+        <div class="group-input">
+          <input type="text" placeholder="Họ tên" id="signup__fullname"/>
+          <p class="error">Vui lòng nhập họ và tên hợp lệ</p>
+        </div>
+        <div class="group-input">
+          <input type="number" placeholder="Số điện thoại" id="signup__phone"/>
+          <p class="error">Vui lòng nhập số điện thoại hợp lệ</p>
+        </div>
+        <div class="group-input">
+          <input type="text" placeholder="Mật khẩu" id="signup__password"/>
+          <p class="error">Vui lòng nhập nhập mật khẩu hợp lệ</p>
+        </div>
+        <div class="group-input">
+          <input type="text" placeholder="Nhập lại mật khẩu" id="signup__match"/>
+          <p class="error">Vui lòng nhập lại mật khẩu hợp lệ</p>
+        </div>
+        <p>Khi bạn nhấn đăng ký bạn đồng ý &nbsp;<a href="#">Điều khoản &nbsp;</a>và &nbsp;<a href="#">Chính Sách &nbsp;</a>của Hoa Quả Sạch</p>
+        <button class="user__btn user__signin">Đăng Ký</button>
+      </form>
+    </div>
+  </div>
+</header>

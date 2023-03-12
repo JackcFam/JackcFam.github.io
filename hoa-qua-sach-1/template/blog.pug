@@ -1,0 +1,142 @@
+extends template-part/layout.pug
+block style
+    link(rel="stylesheet", href="./css/blog.css")
+block title
+    title  Tin Tức
+
+block content
+    .duongdan
+            .container
+                    a(href="#").duongdan1 Trang chủ &nbsp;&nbsp; /
+                        span &nbsp;&nbsp;Blog
+    .detail-blog
+        .container
+            .row
+                .col-xl-9.col-lg-9.col-md-12.col-sm-12.blog-scroll
+                    .item-blog-1
+                        .chua-anh-blog
+                            a(href="#").img-blog-anh
+                                img(src="image/blog2-img.jpg", alt="")
+                        .ten-blog
+                            h2 Cách chế biến thực phẩm sạch
+                        .times-blog_to
+                            .left-time-blog
+                                i.far.fa-calendar-alt.icon-blog
+                                span.title-blog 20 tháng 2 năm 2020 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                            .right-time-blog
+                                i.fas.fa-pen.icon-blog
+                                span.title-blog Admin
+                        .content-review Làm sao để có bữa ăn thật ngon miệng, đảm bảo dinh dưỡng và an toàn cho cả gia đình. Các bà nội trợ hãy tuân thủ theo 5 nguyên tắc đơn giản sau đây để giảm thiểu ngộ độc thực phẩm nhé...
+                        .button-doc-tiep
+                            a(href="blogdetails.html") Đọc Tiếp
+                    hr
+                    .item-blog-1
+                        .chua-anh-blog
+                            a(href="#").img-blog-anh
+                                img(src="image/giamcan.jpg", alt="")
+                        .ten-blog
+                            h2 15 siêu thực phẩm giảm cân an toàn và hiệu quả
+                        .times-blog_to
+                            .left-time-blog
+                                i.far.fa-calendar-alt.icon-blog
+                                span.title-blog 20 tháng 2 năm 2020 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                            .right-time-blog
+                                i.fas.fa-pen.icon-blog
+                                span.title-blog Admin
+                        .content-review Giảm cân với chế độ ăn uống nghiêm ngặt khiến bạn cảm thấy chán nản? Đây cũng là lý do vì sao nhiều người bị “vỡ kế hoạch” giảm cân của mình...
+                        .button-doc-tiep
+                            a(href="blogdetails.html") Đọc Tiếp
+                    .next-blog
+                        .product__pages
+                            a(href="#").active 1
+                            a(href="#") 2
+
+                            a(href="#") 3
+                            a(href="#") 4
+                            a(href="#")
+                                i.fas.fa-forward
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                .col-xl-3.col-lg-3.col-md-12.col-sm-12
+                    .details-blog__sidebar
+                        form.sidebar__form
+                            input(type="text" placeholder="Tìm kiếm bài viết")
+                            i.fas.fa-search
+                        .sidebar__topic
+                            p.sidebar__title Chủ đề
+                            a(href="#").sidebar__link Thực phẩm sạch
+                            a(href="#").sidebar__link Mẹo hay
+                            a(href="#").sidebar__link Ăn ngon mỗi ngày
+                            a(href="#").sidebar__link Khuyến mại
+
+                        .sidebar__blog
+                             p.sidebar__title Bài viết nổi bật
+                             a(href="").sidebar__blog__link
+                                .sidebar__photo
+                                    img(src="./image/blog1b.png", alt="blog")
+                                .sidebar__box
+                                    p Trái cây dinh dưỡng
+                                    p
+
+                                        span &nbsp; 29/06/2019
+                             a(href="").sidebar__blog__link
+                                .sidebar__photo
+                                    img(src="./image/blog1c.jpg", alt="blog")
+                                .sidebar__box
+                                    p Những thực phẩm giảm cân
+                                    p
+
+                                        span &nbsp; 28/7/2020
+                             a(href="").sidebar__blog__link
+                                .sidebar__photo
+                                    img(src="./image/blog1a).jpg", alt="blog")
+                                .sidebar__box
+                                    p Chế biến thực phẩm sạch chưa bao giờ dễ đến thế
+                                    p
+                                        
+                                        span &nbsp;25/12/2020
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+block script
+    script(src="./js/blog.js")
